@@ -31,3 +31,7 @@
 &vdd_log {
 	regulator-init-microvolt = <950000>;
 };
+
+&rng {
+	status = "okay";
+};
